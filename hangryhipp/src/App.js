@@ -1,12 +1,11 @@
 import React from 'react';
 import './App.css';
+import Display from './display';
 
 function App() {
-  return (
-    <div>
-      Hello World
-    </div>
-  );
+    return ( <
+        Display message = "Hello from App" / >
+    );
 }
 
 export default App;
