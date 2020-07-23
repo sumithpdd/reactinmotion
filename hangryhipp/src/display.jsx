@@ -4,7 +4,8 @@ import React from 'react';
 function Display(props) {
     return (
       <div>
-        {props.message}
+        <div>Number of things we've learned about react</div>
+        {props.count}
       </div>
     );
   }
